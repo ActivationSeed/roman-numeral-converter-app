@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "times new roman";
+  background-color: #A89F91;
+  color: white;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 100vh;
+}
+
+#title {
+  border: 1px solid green;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  width: 400px;
+  background-color: #6E6557;
+  border: 1px solid white;
+  letter-spacing: 5px;
+}
+
+#input-div {
+  border: 1px solid blue;
+  margin: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 400px;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #6E6557;
+  letter-spacing: 2px;
+}
+
+#number {
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+#convert-btn {
+  font-size: 1rem;
+  background-color: #A89F91;
+  color: white;
+  border: 1px solid white;
+  font: "times new roman";
+  width: 100px;
+  letter-spacing: 2px;
+}
+
+#output-div {
+  border: 1px solid pink;
+  margin: 1rem;
+  padding: 1.5rem;
+  width: 400px;
+  font-size: 1.5rem;
+  background-color: #6E6557;
+  border: 1px solid white;
+  text-align: center;
+  letter-spacing: 5px;
+}
